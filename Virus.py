@@ -23,8 +23,6 @@ def acak(b):
     for i in x:
         d += '!'+w[random.randint(0,len(w)-1)]+i
     return cetak(d)
-
-
 def cetak(b):
     w = 'ahtdzjc'
     for i in w:
@@ -33,8 +31,6 @@ def cetak(b):
     x += '\033[0m'
     x = x.replace('!0','\033[0m')
     sys.stdout.write(x+'\n')
-
-
 def jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
